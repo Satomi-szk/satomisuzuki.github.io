@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ツナグデザイン</title>
+
+    <!-- Adobeフォント読み込み -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: "clh1tao",
+                scriptTimeout: 3000,
+                async: true,
+            },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className =
+                        h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || (a && a != "complete" && a != "loaded")) return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config);
+                } catch (e) { }
+            };
+            s.parentNode.insertBefore(tk, s);
+        })(document);
+    </script>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="header__inner">
+                <a href="#header">
+                    <p>スズキ<br>サトミ</p>
+                </a>
+                <nav class="header__nav">
+                    <ul>
+                        <li class="btn-loading"><a href="#profile">私のこと</a></li>
+                        <li class="btn-loading"><a href="#work">作品</a></li>
+                        <li class="btn-loading"><a href="#skill">できること</a></li>
+                        <li class="btn-loading"><a href="#contact">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hamburger">
+                <span></span>
+            </div>
+            <nav class="header__nav-sp">
+                <ul>
+                    <li><a href="#profile">私のこと</a></li>
+                    <li><a href="#work">作品</a></li>
+                    <li><a href="#skill">できること</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="site-title">
+            <h1 class="title-pc">ツナグデザイン</h1>
+        </div>
+        <section class="mainvisual">
+            <div class="title_image">
+                <div class="top_image">
+                    <img src="./images/header_line.png" alt="fv画像" />
+                </div>
+                <h1 class="title-sp">ツナグデザイン</h1>
+            </div>
+            <div class="scroll-image">
+                <img src="./images/circle-sp.png" alt="">
+            </div>
+        </section>
+        <div class="toppage_common-navi_controller">
+            <div class="common-navi_scrollbar">
+                <div class="common-page">
+                    <span id="js-works-count">1</span>
+                    <span class="common-page_separator">｜</span>
+                    <span id="js-works-total">5</span>
+                </div>
+
+                <div class="common-scrollbar">
+                    <div class="common-scrollbar_bar" id="js-scroll-bar">
+                        <input type="range" name="scrollbar" min="0" max="100" step="0.5" value="0"
+                            class="common-scrollbar_input" id="js-scroll-input" aria-label="カスタムスクロールバー" />
+                    </div>
+                </div>
+            </div>
+            <div class="sns">
+                <div class="x-icon">
+                    <a href="https://x.com/tsunagudesign">
+                        <img src="./images/x.png" alt="">
+                    </a>
+                </div>
+                <div class="insta-icon">
+                    <a href="https://www.instagram.com/satomiszk_design/">
+                        <img src="./images/instagram.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="common-navi_copyright">&copy;tsunagu design.</div>
+        </div>
+
+
+        <section id="profile" class="profile">
+            <h2 class="heading__h2-sp">私のこと</h2>
+            <div class="profile_photo">
+                <img src="./images/profile.png" alt="プロフィール写真">
+            </div>
+
+            <div class="profile_sentence">
+                <div class="profile_name">
+                    <div class="name">
+                        <h2>鈴木 智美</h2>
+                        <p>SUZUKI SATOMI</p>
+                    </div>
+                    <p class="designer"><span>｜</span>デザイナー</p>
+                </div>
+
+                <p class="sentence">
+                    1898年新潟県生まれ。長野県育ち。神奈川県在住。<br>
+                    昭和音楽大学を卒業後、フリーのサクソフォンプレイヤーとして活動する。<br>
+                    途中コーヒーの魅力にハマり、バリスタに転身。<br>
+                    現在は2人の男の子の子育てをしながら、WEB・グラフィックを中心とした<br>
+                    デザイナーとして活動中。<br>
+                    <br>
+                    これまでの経験の中でたくさんのご縁に恵まれてきたと感じております。<br>
+                    人は一人では乗り越えられない事がたくさんあります。<br>
+                    これまでのご縁に感謝して、今度は私がデザインを通じて皆さまのご縁を<br>
+                    繋いでいきたいと思っております。<br>
+                    <br>
+                    これから新しいことに一歩踏み出そうとしている方、デザインに関して<br>
+                    お悩みの方、また制作について（料金や時間など）、お気軽にお声掛けください。
+                </p>
+                <a href="#contact" class="button">
+                    <span>声を掛けてみる</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <h2 class="heading__h2-sp">作品</h2>
+            <div class="work__inner">
+                <div class="onimg">
+                    <img src="./images/work_zoroslim.png" alt="">
+                    <div class="cursor">
+                        <a href="work1.html"><img src="./images/cursor.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="onimg">
+                    <img src="./images/work_hairsalon.png" alt="">
+                    <div class="cursor">
+                        <a href="work2.html"><img src="./images/cursor.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="onimg">
+                    <img src="./images/work_cafe.png" alt="">
+                    <div class="cursor">
+                        <a href="work3.html"><img src="./images/cursor.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="onimg">
+                    <img src="./images/work_burger.png" alt="">
+                    <div class="cursor">
+                        <a href="work4.html"><img src="./images/cursor.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="onimg">
+                    <img src="./images/work_programming.png" alt="">
+                    <div class="cursor">
+                        <a href="work5.html"><img src="./images/cursor.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="onimg">
+                    <img src="./images/work_sportsschool.png" alt="">
+                    <div class="cursor">
+                        <a href="work6.html"><img src="./images/cursor.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-image">
+                <img src="./images/circle-sp.png" alt="">
+            </div>
+        </section>
+
+        <section id="skill" class="skill">
+            <h2 class="heading__h2-sp">できること</h2>
+            <div class="skill__contents">
+                <div class="skill_box">
+                    <div class="sax">
+                        <img src="./images/sax.png" alt="">
+                    </div>
+                    <div class="skill__inner">
+                        <ul>
+                            <li>
+                                <p class="subtitle">Web</p>
+                                <div class="box1">
+                                    <p>LP / HP / バナー / サムネイル など</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="subtitle">Graphic</p>
+                                <div class="box2">
+                                    <p>チラシ / ポスター / フライヤー / <br>
+                                        名刺 / ショップカード など
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="subtitle">Tool</p>
+                                <div class="box3">
+                                    <div class="text">
+                                        <div class="tool__inner">
+                                            <p class="tool_top">Design</p>
+                                            <p class="tool">Illustrator / Photoshop / Canva</p>
+                                        </div>
+                                        <div class="tool__inner">
+                                            <p class="tool_top">Coding</p>
+                                            <p class="tool">VScode</p>
+                                        </div>
+                                        <div class="tool__inner">
+                                            <p class="tool_top">Other</p>
+                                            <p class="tool">GitHub Desktop / zoom / ChatWork</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="postscript">
+                            <p>
+                                記載していない事も<br>
+                                柔軟に対応させていただきます。<br>
+                                まずはお気軽にお声掛けください。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="coffee_postscript">
+                        <div class="coffee">
+                            <img src="./images/coffee.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-image">
+                <img src="./images/circle-sp.png" alt="">
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="heading__h2-sp">お問い合わせ</h2>
+            <form class="c-form">
+                <div class="c-form__item">
+                    <label class="c-form__label" for="field-name">お名前</label>
+                    <input name="entry.1703000028" class="c-form__input" id="field-name" placeholder="例 ） 鈴木 太郎"
+                        type="text" required="required" />
+                </div>
+                <div class="c-form__item">
+                    <label class="c-form__label" for="field-mail">メールアドレス</label>
+                    <input name="entry.1279249092" class="c-form__input" id="field-mail"
+                        placeholder="例 ） design@mail.com" type="email" required="required" />
+                </div>
+                <div class="c-form__item">
+                    <label class="c-form__label" for="field-message">お問い合わせ内容</label>
+                    <textarea name="entry.1887456883" class="c-form__input" id="field-message"
+                        placeholder="例 ） 初めまして。&#13;鈴木太郎と申します。&#13;ご相談できますでしょうか？"></textarea>
+                </div>
+                <p class="attention">
+                    ※送信内容の確認画面はありません。<br />
+                    内容にお間違いがないかご確認の上、お送りください。
+                </p>
+                <div class="c-form__submit">
+                    <button type="submit">送信する</button>
+                </div>
+            </form>
+            <div class="display">
+                <div class="after-sending">
+                    <img src="./images/hands.png" alt="" />
+                    <p>
+                        お問い合わせありがとうございます。<br />
+                        内容を確認後、ご連絡させていただきます。
+                    </p>
+                </div>
+            </div>
+            <div class="last-title">ツナグデザイン</div>
+        </section>
+    </div>
+
+    <script>
+        // セクションに紐づいて動くバー
+        document.addEventListener("DOMContentLoaded", function () {
+            const sections = document.querySelectorAll("section");
+            const scrollbar = document.getElementById("js-scroll-input");
+            const pageCount = document.getElementById("js-works-count"); // ページ番号表示用
+            const totalPage = document.getElementById("js-works-total"); // 総ページ数表示用
+            const totalSections = sections.length;
+            const navItems = document.querySelectorAll(".header__nav-sp li a"); // SPナビの各リンク
+
+            // 総ページ数の表示を更新
+            totalPage.textContent = totalSections;
+
+            // 各セクションのオフセットトップや幅を取得
+            let sectionOffsets = Array.from(sections).map(
+                (section) => section.offsetTop
+            );
+            let sectionWidths = Array.from(sections).map(
+                (section) => section.offsetWidth
+            );
+
+            // 現在のスクロール動作がPCかSPかを判断する関数
+            function isPC() {
+                return window.innerWidth > 767; // 768px以上ならPC表示、767px以下ならSP表示
+            }
+
+            // スクロール位置に応じてスクロールバーを更新する関数
+            function updateScroll() {
+                const scrollTop = window.scrollY;
+                const scrollLeft = window.scrollX;
+                const totalScrollHeight =
+                    document.documentElement.scrollHeight - window.innerHeight;
+                const totalScrollWidth =
+                    document.documentElement.scrollWidth - window.innerWidth;
+
+                let scrollPercentage;
+                if (isPC()) {
+                    // PCの場合は横スクロールに対応
+                    scrollPercentage = (scrollLeft / totalScrollWidth) * 100;
+                } else {
+                    // SPの場合は縦スクロールに対応
+                    scrollPercentage = (scrollTop / totalScrollHeight) * 100;
+                }
+                scrollbar.value = scrollPercentage;
+
+                // 現在のセクションを計算してページ番号を更新
+                sections.forEach((section, index) => {
+                    const sectionTop = sectionOffsets[index];
+                    const sectionBottom = sectionTop + section.offsetHeight;
+                    const sectionLeft = sectionWidths[index] * index;
+                    const sectionRight = sectionLeft + sectionWidths[index];
+
+                    if (isPC()) {
+                        if (scrollLeft >= sectionLeft && scrollLeft < sectionRight) {
+                            pageCount.textContent = index + 1;
+                        }
+                    } else {
+                        if (scrollTop >= sectionTop && scrollTop < sectionBottom) {
+                            pageCount.textContent = index + 1;
+                        }
+                    }
+                });
+            }
+
+            window.addEventListener("scroll", updateScroll);
+
+            // スクロールバーを操作した時のスクロール処理
+            scrollbar.addEventListener("input", function () {
+                const totalScrollHeight =
+                    document.documentElement.scrollHeight - window.innerHeight;
+                const totalScrollWidth =
+                    document.documentElement.scrollWidth - window.innerWidth;
+                let newScrollValue;
+
+                if (isPC()) {
+                    // PCでは横スクロールを適用
+                    newScrollValue = (this.value / 100) * totalScrollWidth;
+                    window.scrollTo({
+                        left: newScrollValue,
+                        behavior: "smooth",
+                    });
+                } else {
+                    // SPでは縦スクロールを適用
+                    newScrollValue = (this.value / 100) * totalScrollHeight;
+                    window.scrollTo({
+                        top: newScrollValue,
+                        behavior: "smooth",
+                    });
+                }
+            });
+
+            // ナビゲーションリンクをクリックした時の処理
+            navItems.forEach((item, index) => {
+                item.addEventListener("click", function (e) {
+                    e.preventDefault(); // デフォルトのリンク動作を無効化
+
+                    if (isPC()) {
+                        // PCの場合は横スクロールで対応するセクションにスクロール
+                        const sectionLeft = sectionWidths[index] * index;
+                        window.scrollTo({
+                            left: sectionLeft,
+                            behavior: "smooth",
+                        });
+                    } else {
+                        // SPの場合は縦スクロールで対応するセクションにスクロール
+                        const sectionTop = sectionOffsets[index];
+                        window.scrollTo({
+                            top: sectionTop,
+                            behavior: "smooth",
+                        });
+                    }
+
+                    // スクロールバーの値を対応するセクションに連動させる
+                    const totalScrollHeight =
+                        document.documentElement.scrollHeight - window.innerHeight;
+                    const totalScrollWidth =
+                        document.documentElement.scrollWidth - window.innerWidth;
+                    let scrollPercentage;
+
+                    if (isPC()) {
+                        scrollPercentage =
+                            ((sectionWidths[index] * index) / totalScrollWidth) * 100;
+                    } else {
+                        scrollPercentage =
+                            (sectionOffsets[index] / totalScrollHeight) * 100;
+                    }
+                    scrollbar.value = scrollPercentage;
+                });
+            });
+
+            // リサイズ時にセクションオフセットや幅を再計算
+            window.addEventListener("resize", function () {
+                sectionOffsets = Array.from(sections).map(
+                    (section) => section.offsetTop
+                );
+                sectionWidths = Array.from(sections).map(
+                    (section) => section.offsetWidth
+                );
+            });
+        });
+        // カーソル
+        $(function () {
+            $(".c-form__submit").click(function () {
+                $(".after-sending p").toggleClass(".display");
+            });
+        });
+
+        $(function () {
+            var cursor = $("#cursor");
+
+            $(document).on("mousemove", function (e) {
+                var x = e.clientX;
+                var y = e.clientY;
+
+                cursor.css({
+                    opacity: "1",
+                    top: y + "px",
+                    left: x + "px",
+                });
+            });
+        });
+        $(function () {
+            // ハンバーガーメニューのクリックで開閉する処理
+            $(".hamburger").click(function () {
+                $(".header__nav-sp").fadeToggle();
+                $(".hamburger").toggleClass("open");
+            });
+
+            // ハンバーガーメニューのリンクをクリックしたらメニューを閉じる処理
+            $(".header__nav-sp li a").click(function () {
+                $(".header__nav-sp").fadeOut(); // メニューを閉じる
+                $(".hamburger").removeClass("open"); // ハンバーガーアイコンのクラスを削除
+            });
+
+            // 他の場所がクリックされた場合でもメニューを閉じる処理
+            $(document).click(function (event) {
+                if (!$(event.target).closest(".hamburger, .header__nav-sp").length) {
+                    $(".header__nav-sp").fadeOut(); // メニューを閉じる
+                    $(".hamburger").removeClass("open"); // ハンバーガーアイコンのクラスを削除
+                }
+            });
+        });
+
+
+        $(function () {
+            $(".c-form__submit button").click(function (e) {
+                // 入力されたデータを取得
+                var name = $("#field-name").val();
+                var email = $("#field-mail").val();
+                var message = $("#field-message").val();
+                var isValid = true;
+
+
+                // 名前が未入力の場合
+                if (name === "") {
+                    isValid = false;
+                    alert("お名前を入力してください。");
+                }
+
+
+                // メールアドレスが未入力の場合
+                if (email === "") {
+                    isValid = false;
+                    alert("メールアドレスを入力してください。");
+                }
+
+
+                // メッセージが未入力の場合
+                if (message === "") {
+                    isValid = false;
+                    alert("お問い合わせ内容を入力してください。");
+                }
+
+
+                // すべての入力項目が正しく入力されていれば送信を許可
+                if (!isValid) {
+                    e.preventDefault(); // フォーム送信をキャンセル
+                } else {
+                    // フォームが正しく送信された場合のみメッセージを表示
+                    $(".after-sending p").fadeIn();
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>
