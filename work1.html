@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品</title>
+
+    <!-- Adobeフォント読み込み -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: "clh1tao",
+                scriptTimeout: 3000,
+                async: true,
+            },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className =
+                        h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || (a && a != "complete" && a != "loaded")) return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config);
+                } catch (e) { }
+            };
+            s.parentNode.insertBefore(tk, s);
+        })(document);
+    </script>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+</head>
+
+<body class="work-body">
+    <div class="wrapper">
+        <header id="header">
+            <div class="header__inner">
+                <a href="#header">
+                    <p>スズキ<br>サトミ</p>
+                </a>
+                <nav class="header__nav">
+                    <ul>
+                        <li class="btn-loading"><a href="#profile">私のこと</a></li>
+                        <li class="btn-loading"><a href="#work">作品</a></li>
+                        <li class="btn-loading"><a href="#skill">できること</a></li>
+                        <li class="btn-loading"><a href="#contact">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hamburger">
+                <span></span>
+            </div>
+            <nav class="header__nav-sp">
+                <ul>
+                    <li><a href="#profile">私のこと</a></li>
+                    <li><a href="#work">作品</a></li>
+                    <li><a href="#skill">できること</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="site-title">
+            <h1 class="title-pc">ツナグデザイン</h1>
+        </div>
+
+
+        <div class="work_sns">
+            <div class="x-icon">
+                <a href="https://x.com/tsunagudesign">
+                    <img src="./images/x.png" alt="">
+                </a>
+            </div>
+            <div class="insta-icon">
+                <a href="https://www.instagram.com/satomiszk_design/">
+                    <img src="./images/instagram.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="work_common-navi_copyright">&copy;tsunagu design.</div>
+    </div>
+
+
+    <div class="work_section">
+        <div class="work-pc">
+            <div class="work_text">
+                <h3>ダイエットサプリメント | LP</h3>
+                <p>
+                    架空のダイエットサプリメントのLPを制作しました。<br>
+                    ダイエットに何度も失敗して苦しんでいる女性が、<br>
+                    少しでもダイエットを楽しいと思ってもらえるように<br>
+                    願いを込めました。<br>
+                    明るい気持ちになれるオレンジのカラーと、<br>
+                    成分に含まれているレモンを所々に配置したところが<br>
+                    ポイントです。
+                </p>
+            </div>
+            <div class="work_image">
+                <img class="first" src="./images/zeroslim_fv.png" alt="">
+                <img class="second" src="./images/zeroslim_pc.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="work_text">
+            <div class="work-sp">
+                <div class="work_image">
+                    <img class="first" src="./images/zeroslim_fv.png" alt="">
+                </div>
+                <h3>ダイエットサプリメント | LP</h3>
+                <p>
+                    架空のダイエットサプリメントのLPを制作しました。<br>
+                    ダイエットに何度も失敗して苦しんでいる女性が、<br>
+                    少しでもダイエットを楽しいと思ってもらえるように<br>
+                    願いを込めました。<br>
+                    明るい気持ちになれるオレンジのカラーと、<br>
+                    成分に含まれているレモンを所々に配置したところが<br>
+                    ポイントです。
+                </p>
+            </div>
+            <div class="work_image">
+                <img class="second" src="./images/zeroslim_pc.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // セクションに紐づいて動くバー
+        document.addEventListener("DOMContentLoaded", function () {
+            const sections = document.querySelectorAll("section");
+            const scrollbar = document.getElementById("js-scroll-input");
+            const pageCount = document.getElementById("js-works-count"); // ページ番号表示用
+            const totalPage = document.getElementById("js-works-total"); // 総ページ数表示用
+            const totalSections = sections.length;
+
+            // 総ページ数の表示を更新
+            totalPage.textContent = totalSections;
+
+            // 全体のスクロール可能な幅
+            const totalScrollWidth =
+                document.documentElement.scrollWidth - window.innerWidth;
+
+            // スクロール位置に応じてページ番号を更新
+            window.addEventListener("scroll", function () {
+                const scrollLeft = window.scrollX; // 横スクロールの位置を取得
+                const scrollPercentage = (scrollLeft / totalScrollWidth) * 100; // スクロール位置をパーセンテージに変換
+
+                scrollbar.value = scrollPercentage; // スクロールバーの値を更新
+
+                // 現在のセクションを計算してページ番号を更新
+                let currentSectionIndex =
+                    Math.floor(scrollLeft / (totalScrollWidth / totalSections)) + 1;
+                pageCount.textContent = currentSectionIndex; // ページ番号を更新
+            });
+
+            // スクロールバーをドラッグして横スクロールする
+            scrollbar.addEventListener("input", function () {
+                const newScrollLeft = (this.value / 100) * totalScrollWidth; // パーセンテージに応じたスクロール位置を計算
+                window.scrollTo({
+                    left: newScrollLeft,
+                    behavior: "smooth", // スムーズなスクロール
+                });
+            });
+        });
+
+        // ハンバーガーメニュー
+        $(".hamburger").on("click", function () {
+            $(".hamburger").toggleClass("open");
+            $(".header__nav-sp").fadeToggle();
+        });
+    </script>
+</body>
+
+</html>
