@@ -383,8 +383,8 @@ input[type="range"]::-webkit-slider-thumb {
   .header__nav-sp {
     opacity: .5;
     position: fixed;
-    top: -80px;
-    right: -100px;
+    top: -50px;
+    right: -65px;
     z-index: 9998;
     width: 80%;
     height: 60vh;
@@ -1041,6 +1041,7 @@ button {
     width: 90%;
     padding: 10px 10px;
     color: #493c33;
+    font-family: "ヒラギノ明朝 ProN W3",  "Hiragino Mincho ProN W3","Hiragino Mincho ProN",  "A1 Mincho", "游明朝", YuMincho,"HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
   }
 
   .after-sending img {
