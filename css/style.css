@@ -417,7 +417,7 @@ input[type="range"]::-webkit-slider-thumb {
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 250px;
+    top: 200px;
     right: -100px;
     transform: rotate(90deg);
     gap: 15px;
