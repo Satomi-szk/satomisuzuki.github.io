@@ -643,8 +643,8 @@ h2 {
   }
 
   .profile .button {
-    width: 50%;
-    padding: 15px 0px;
+    width: 60%;
+    padding: 10px 10px;
     border-radius: 50px;
   }
 }
@@ -1039,7 +1039,7 @@ button {
 
   .c-form__submit button {
     width: 65%;
-    padding: 15px 0px;
+    padding: 10px 10px;
   }
 
   .after-sending img {
