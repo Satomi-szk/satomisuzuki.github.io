@@ -254,7 +254,7 @@ section {
 
 @media screen and (max-width:767px) {
   .header__inner p {
-    width: 52px;
+    width: 45px;
     font-size: 16px;
 
   }
