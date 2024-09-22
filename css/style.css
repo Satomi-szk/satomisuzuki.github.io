@@ -1040,6 +1040,7 @@ button {
   .c-form__submit button {
     width: 90%;
     padding: 10px 10px;
+    color: #493c33;
   }
 
   .after-sending img {
