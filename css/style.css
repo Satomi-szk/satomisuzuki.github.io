@@ -28,7 +28,7 @@ section {
   position: relative;
   height: 100vh;
   /* 各セクションの高さをビューポートに */
-  /* padding: 140px 0; */
+  padding: 140px 0;
 }
 
 .balloon {
