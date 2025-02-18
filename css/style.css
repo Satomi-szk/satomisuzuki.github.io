@@ -656,7 +656,7 @@ h2 {
 
 .sentence {
   text-align: start;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.7;
   padding-bottom: 24px;
 }
@@ -756,7 +756,7 @@ h2 {
   max-width: 1210px;
   margin: 0 auto;
   row-gap: 25px;
-  width: 70%;
+  width: 60%;
 }
 
 .onimg {
@@ -891,6 +891,10 @@ h2 {
   margin: 0 auto;
   padding-left: 20px;
   font-size: 20px;
+}
+
+.tool_top{
+  font-size: 22px;
 }
 
 .postscript {
