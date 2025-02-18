@@ -223,11 +223,11 @@ section {
       opacity: 0;
     }
 
-    3%{
+    3% {
       opacity: 1;
     }
 
-    100%{
+    100% {
       opacity: 0;
     }
   }
@@ -893,7 +893,7 @@ h2 {
   font-size: 20px;
 }
 
-.tool_top{
+.tool_top {
   font-size: 22px;
 }
 
@@ -999,7 +999,7 @@ h2 {
     line-height: 1.2;
   }
 
-  .tool{
+  .tool {
     font-size: 16px;
   }
 
@@ -1041,19 +1041,7 @@ h2 {
   padding-left: 20px;
 }
 
-#field-name {
-  width: 100%;
-  height: 50px;
-  padding: 20px;
-  background-color: #fcfbf5;
-  border: 2px solid #493c33;
-  border-radius: 10px;
-  font-size: 16px;
-  color: #493c33;
-  font-family: "ヒラギノ明朝 ProN W3", serif;
-}
-
-#field-mail {
+.c-form__input {
   width: 100%;
   height: 50px;
   padding: 20px;
@@ -1138,6 +1126,14 @@ h2 {
   .c-form__input {
     width: 70%;
   }
+
+  .c-form__input {
+    width: 70%;
+  }
+
+  #field-message {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1147,9 +1143,23 @@ h2 {
   }
 
   .c-form {
-    width: 70%;
-    padding-left: 16px;
+    width: 100%;
+  }
+
+  .c-form__label {
+    padding-left: calc(35% / 2);
+  }
+
+  .c-form__input {
+    display: block;
     margin: 0 auto;
+    width: 65%;
+    height: 20px;
+  }
+
+  #field-message {
+    width: 65%;
+    height: 120px;
   }
 
   .c-form__item {
@@ -1157,7 +1167,9 @@ h2 {
   }
 
   .attention {
-    padding: 0 24px 24px;
+    display: inline-block;
+    padding-inline: calc(35% / 2);
+    padding-bottom: 24px;
   }
 
   .after-sending p {
@@ -1165,8 +1177,8 @@ h2 {
   }
 
   .c-form__submit button {
-    width: 90%;
-    padding: 10px 0;
+    width: 60%;
+    padding: 8px 0;
     font-size: 14px;
     color: #493c33;
     font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", "Hiragino Mincho ProN", "A1 Mincho", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
@@ -1207,7 +1219,7 @@ h2 {
   right: 0;
 }
 
-.x-icon{
+.x-icon {
   padding-bottom: 20px;
 }
 
