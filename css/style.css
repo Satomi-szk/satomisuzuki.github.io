@@ -603,16 +603,26 @@ input[type="range"]::-webkit-slider-thumb {
 
 /* profile */
 .profile {
+  position: relative;
+  max-width: 100%;
+}
+
+.profile_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1210px;
+  width: 100%;
+  padding-inline: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .profile_photo {
   width: 50%;
   height: auto;
-  padding: 0 100px 0 150px;
+  padding: 0 80px;
 }
 
 .profile_sentence {
@@ -692,7 +702,18 @@ h2 {
 
 @media screen and (max-width:767px) {
   .profile {
-    display: block;
+    position: static;
+  }
+
+  .profile .heading__h2-sp {
+    position: static;
+  }
+
+  .profile_wrapper {
+    flex-direction: column;
+    position: static;
+    transform: unset;
+    padding-inline: 40px;
   }
 
   .profile_photo {
@@ -734,7 +755,7 @@ h2 {
   }
 
   .profile .button {
-    padding: 10px 0;
+    padding: 8px 0;
     border-radius: 50px;
   }
 
