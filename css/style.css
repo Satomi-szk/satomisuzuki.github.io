@@ -1203,6 +1203,7 @@ h2 {
     width: 60%;
     padding: 8px 0;
     font-size: 14px;
+    line-height: 2;
     color: #493c33;
     font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", "Hiragino Mincho ProN", "A1 Mincho", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
   }
