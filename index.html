@@ -76,11 +76,39 @@
                     <li><a href="#contact">お問い合わせ</a></li>
                 </ul>
             </nav>
+            <div class="toppage_common-navi_controller">
+                <div class="common-navi_scrollbar">
+                    <div class="common-page">
+                        <span id="js-works-count">1</span>
+                        <span class="common-page_separator">｜</span>
+                        <span id="js-works-total">5</span>
+                    </div>
+                    <div class="common-scrollbar">
+                        <div class="common-scrollbar_bar" id="js-scroll-bar">
+                            <input type="range" name="scrollbar" min="0" max="100" step="0.5" value="0"
+                                class="common-scrollbar_input" id="js-scroll-input" aria-label="カスタムスクロールバー" />
+                        </div>
+                    </div>
+                </div>
+                <div class="sns">
+                    <div class="icon">
+                        <a href="https://x.com/tsunagudesign">
+                            <img src="./images/x.png" alt="">
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.instagram.com/satomiszk_design/">
+                            <img src="./images/instagram.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="common-navi_copyright">&copy;tsunagu design.</div>
+            </div>
         </header>
-        <div class="site-title">
-            <h1 class="title-pc">ツナグデザイン</h1>
-        </div>
         <section class="mainvisual">
+            <div class="site-title">
+                <h1 class="title-pc">ツナグデザイン</h1>
+            </div>
             <div class="title_image">
                 <div class="top_image">
                     <img src="./images/header_line.png" alt="fv画像" />
@@ -91,65 +119,39 @@
                 <img src="./images/circle-sp.png" alt="">
             </div>
         </section>
-        <div class="toppage_common-navi_controller">
-            <div class="common-navi_scrollbar">
-                <div class="common-page">
-                    <span id="js-works-count">1</span>
-                    <span class="common-page_separator">｜</span>
-                    <span id="js-works-total">5</span>
-                </div>
-                <div class="common-scrollbar">
-                    <div class="common-scrollbar_bar" id="js-scroll-bar">
-                        <input type="range" name="scrollbar" min="0" max="100" step="0.5" value="0"
-                            class="common-scrollbar_input" id="js-scroll-input" aria-label="カスタムスクロールバー" />
-                    </div>
-                </div>
-            </div>
-            <div class="sns">
-                <div class="icon">
-                    <a href="https://x.com/tsunagudesign">
-                        <img src="./images/x.png" alt="">
-                    </a>
-                </div>
-                <div class="icon">
-                    <a href="https://www.instagram.com/satomiszk_design/">
-                        <img src="./images/instagram.png" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="common-navi_copyright">&copy;tsunagu design.</div>
-        </div>
 
         <section id="profile" class="profile">
             <h2 class="heading__h2-sp">私のこと</h2>
-            <div class="profile_photo">
-                <img src="./images/profile.png" alt="プロフィール写真">
-            </div>
-            <div class="profile_sentence">
-                <div class="profile_name">
-                    <div class="name">
-                        <h2>鈴木 智美</h2>
-                        <p class="small-name">SUZUKI SATOMI</p>
-                    </div>
-                    <p class="designer"><span>｜</span>デザイナー</p>
+            <div class="profile_wrapper">
+                <div class="profile_photo">
+                    <img src="./images/profile.png" alt="プロフィール写真">
                 </div>
-                <p class="sentence">
-                    1989年新潟県生まれ。長野県育ち。神奈川県在住。<br>
-                    昭和音楽大学を卒業後、フリーのサクソフォンプレイヤーとして<br>活動する。
-                    途中コーヒーの魅力にハマり、バリスタに転身。<br>
-                    現在は2人の男の子の子育てをしながら、WEB・グラフィックを<br>中心としたデザイナーとして活動中。<br>
-                    <br>
-                    これまでの経験の中でたくさんのご縁に恵まれてきたと感じて<br>おります。<br>
-                    人は一人では乗り越えられない事がたくさんあります。<br>
-                    これまでのご縁に感謝して、今度は私がデザインを通じて皆さまのご縁を繋いでいきたいと思っております。<br>
-                    <br>
-                    これから新しいことに一歩踏み出そうとしている方、
-                    デザインに関してお悩みの方、また制作について（料金や時間など）、
-                    お気軽にお声掛けください。
-                </p>
-                <a href="#contact" class="button">
-                    <span>声を掛けてみる</span>
-                </a>
+                <div class="profile_sentence">
+                    <div class="profile_name">
+                        <div class="name">
+                            <h2>鈴木 智美</h2>
+                            <p class="small-name">SUZUKI SATOMI</p>
+                        </div>
+                        <p class="designer"><span>｜</span>デザイナー</p>
+                    </div>
+                    <p class="sentence">
+                        1989年新潟県生まれ。長野県育ち。神奈川県在住。<br>
+                        昭和音楽大学を卒業後、フリーのサクソフォンプレイヤーとして<br>活動する。
+                        途中コーヒーの魅力にハマり、バリスタに転身。<br>
+                        現在は2人の男の子の子育てをしながら、WEB・グラフィックを<br>中心としたデザイナーとして活動中。<br>
+                        <br>
+                        これまでの経験の中でたくさんのご縁に恵まれてきたと感じて<br>おります。<br>
+                        人は一人では乗り越えられない事がたくさんあります。<br>
+                        これまでのご縁に感謝して、今度は私がデザインを通じて皆さまのご縁を繋いでいきたいと思っております。<br>
+                        <br>
+                        これから新しいことに一歩踏み出そうとしている方、
+                        デザインに関してお悩みの方、また制作について（料金や時間など）、
+                        お気軽にお声掛けください。
+                    </p>
+                    <a href="#contact" class="button">
+                        <span>声を掛けてみる</span>
+                    </a>
+                </div>
             </div>
             <div class="balloon">
                 <img class="balloon_1" src="./images/balloon_1.png" alt="">
