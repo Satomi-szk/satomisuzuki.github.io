@@ -347,8 +347,11 @@ section {
 }
 
 @media screen and (max-width:767px) {
-  .header__inner p {
+  header{
+    width: 100%;
+  }
 
+  .header__inner p {
     font-size: 16px;
   }
 }
@@ -502,6 +505,7 @@ input[type="range"]::-webkit-slider-thumb {
 
   /* スクロールバー */
   .toppage_common-navi_controller {
+    width: 100%;
     flex-direction: column;
     gap: 6rem;
     top: 30%;
@@ -673,7 +677,7 @@ h2 {
 
 .profile .button {
   display: inline-block;
-  width: 70%;
+  width: 80%;
   padding: 16px 0;
   background: #fcfbf5;
   border: 2px solid #493c33;
@@ -723,11 +727,11 @@ h2 {
 
   .profile_sentence {
     width: 100%;
-    padding-inline: 3vw;
+    /* padding-inline: 3vw; */
   }
 
   .profile_name {
-    padding-inline: 75px;
+    padding-inline: 0;
     padding-block: 20px;
   }
 
@@ -746,7 +750,8 @@ h2 {
   }
 
   .profile_name .designer {
-    font-size: 14px;
+    /* font-size: 14px; */
+    display: none;
   }
 
   .sentence {
@@ -761,6 +766,7 @@ h2 {
 
   .button span {
     font-size: 14px;
+    line-height: 1;
   }
 }
 
@@ -1132,6 +1138,7 @@ h2 {
 /* 送信後メッセージを出す */
 .after-sending p {
   writing-mode: vertical-rl;
+  color: #da3832;
   font-size: 24px;
   display: none;
 }
@@ -1208,6 +1215,18 @@ h2 {
     font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", "Hiragino Mincho ProN", "A1 Mincho", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
   }
 
+  /* 送信後メッセージを出す */
+  .display {
+    width: 100%;
+}
+
+.after-sending p {
+  writing-mode: horizontal-tb;
+  font-size: 16px;
+  padding-top: 8px;
+  /* text-align: center; */
+}
+  
   .after-sending img {
     display: none;
   }
