@@ -1343,4 +1343,9 @@ h3 {
     font-size: 18px;
     padding-top: 24px;
   }
+
+  .work_text a {
+    font-size: 14px;
+    padding-block: 24px;
+  }
 }
