@@ -1308,6 +1308,15 @@ h3 {
   padding-top: 24px;
 }
 
+.work_text a {
+  font-size: 14px;
+  padding-block: 24px;
+}
+
+.work_text a:hover {
+  color: #da3832;
+}
+
 .work_common-navi_copyright {
   padding-block: 24px;
 }
@@ -1342,10 +1351,5 @@ h3 {
   .work_text p {
     font-size: 18px;
     padding-top: 24px;
-  }
-
-  .work_text a {
-    font-size: 14px;
-    padding-block: 24px;
   }
 }
