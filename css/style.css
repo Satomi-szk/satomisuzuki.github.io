@@ -565,7 +565,7 @@ input[type="range"]::-webkit-slider-thumb {
   .top_image {
     position: static;
     transform: none;
-    max-width: 55%;
+    max-width: 72%;
     padding-bottom: 40px;
 
   }
