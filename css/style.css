@@ -202,16 +202,19 @@ section {
   }
 
   .balloon_1 {
+    width: 30%;
     bottom: 0;
     animation: move 40s infinite linear;
   }
 
   .balloon_2 {
+    width: 30%;
     bottom: 0;
     animation: move 35s infinite linear;
   }
 
   .balloon_3 {
+    width: 30%;
     bottom: 0;
     animation: move 45s infinite linear;
   }
@@ -347,7 +350,7 @@ section {
 }
 
 @media screen and (max-width:767px) {
-  header{
+  header {
     width: 100%;
   }
 
@@ -505,14 +508,14 @@ input[type="range"]::-webkit-slider-thumb {
 
   /* スクロールバー */
   .toppage_common-navi_controller {
-    width: 100%;
+    width: 12%;
+    height: 95vh;
     flex-direction: column;
     gap: 6rem;
-    top: 30%;
-    left: 44%;
-    bottom: 80px;
+    top: 0;
+    right: 0;
     padding: 0;
-    z-index: -1;
+    /* z-index: -1; */
   }
 
   .common-navi_scrollbar {
@@ -551,7 +554,7 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   .common-navi_copyright {
-    transform: rotate(90deg);
+    writing-mode: vertical-rl;
     font-size: 13px;
   }
 
@@ -1218,15 +1221,15 @@ h2 {
   /* 送信後メッセージを出す */
   .display {
     width: 100%;
-}
+  }
 
-.after-sending p {
-  writing-mode: horizontal-tb;
-  font-size: 16px;
-  padding-top: 8px;
-  /* text-align: center; */
-}
-  
+  .after-sending p {
+    writing-mode: horizontal-tb;
+    font-size: 16px;
+    padding-top: 8px;
+    /* text-align: center; */
+  }
+
   .after-sending img {
     display: none;
   }
