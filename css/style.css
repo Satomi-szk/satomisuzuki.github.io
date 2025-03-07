@@ -104,7 +104,7 @@ section {
     position: relative;
     width: 100%;
     height: auto;
-    padding: 150px 50px;
+    padding: 150px 20px;
   }
 
   .wrapper {
@@ -122,8 +122,8 @@ section {
   .hamburger {
     display: block;
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 12px;
+    right: 4px;
     z-index: 9999;
     width: 30px;
     height: 30px;
@@ -186,7 +186,7 @@ section {
     writing-mode: vertical-rl;
     position: absolute;
     top: 120px;
-    left: 35px;
+    left: 8px;
   }
 
   .work .heading__h2-sp {
@@ -357,6 +357,10 @@ section {
   .header__inner p {
     font-size: 16px;
   }
+
+  .sns .icon{
+    width: 24px;
+  }
 }
 
 /* 「ツナグデザイン」配置 */
@@ -468,8 +472,8 @@ input[type="range"]::-webkit-slider-thumb {
   .header__inner p {
     position: fixed;
     font-size: 16px;
-    top: 20px;
-    left: 20px;
+    top: 12px;
+    left: 8px;
   }
 
   .header__nav-sp {
@@ -720,12 +724,12 @@ h2 {
     flex-direction: column;
     position: static;
     transform: unset;
-    padding-inline: 40px;
+    padding-inline: 8px;
   }
 
   .profile_photo {
     width: 100%;
-    padding-inline: 25px;
+    padding-inline: 8px;
   }
 
   .profile_sentence {
@@ -823,7 +827,7 @@ h2 {
     flex-direction: column;
     padding-top: 0;
     padding-left: 0;
-    width: 65%;
+    width: 80%;
   }
 
   .onimg {
@@ -980,7 +984,7 @@ h2 {
   .skill__inner {
     display: block;
     transform: none;
-    width: 75%;
+    width: 85%;
     height: auto;
   }
 
