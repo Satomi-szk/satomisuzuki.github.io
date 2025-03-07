@@ -104,7 +104,7 @@ section {
     position: relative;
     width: 100%;
     height: auto;
-    padding: 150px 20px;
+    padding: 150px 32px;
   }
 
   .wrapper {
@@ -186,7 +186,7 @@ section {
     writing-mode: vertical-rl;
     position: absolute;
     top: 120px;
-    left: 8px;
+    left: 10px;
   }
 
   .work .heading__h2-sp {
@@ -358,7 +358,7 @@ section {
     font-size: 16px;
   }
 
-  .sns .icon{
+  .sns .icon {
     width: 24px;
   }
 }
@@ -507,7 +507,7 @@ input[type="range"]::-webkit-slider-thumb {
 
   .mainvisual {
     height: 100vh;
-    padding: 50px;
+    padding: 32px;
   }
 
   /* スクロールバー */
@@ -1053,6 +1053,10 @@ h2 {
   .coffee {
     display: none;
   }
+
+  .skill .scroll-image {
+    padding-top: 380px;
+  }
 }
 
 /* contact */
@@ -1176,7 +1180,7 @@ h2 {
 @media screen and (max-width:767px) {
   .contact {
     display: block;
-    padding: 0;
+    padding: 12px 32px;
   }
 
   .c-form {
@@ -1184,18 +1188,18 @@ h2 {
   }
 
   .c-form__label {
-    padding-left: calc(35% / 2);
+    padding-left: 8px;
   }
 
   .c-form__input {
     display: block;
     margin: 0 auto;
-    width: 65%;
+    width: 80%;
     height: 20px;
   }
 
   #field-message {
-    width: 65%;
+    width: 80%;
     height: 120px;
   }
 
@@ -1205,7 +1209,7 @@ h2 {
 
   .attention {
     display: inline-block;
-    padding-inline: calc(35% / 2);
+    padding-inline: 8px;
     padding-bottom: 24px;
   }
 
@@ -1214,7 +1218,7 @@ h2 {
   }
 
   .c-form__submit button {
-    width: 60%;
+    width: 80%;
     padding: 8px 0;
     font-size: 14px;
     line-height: 2;
