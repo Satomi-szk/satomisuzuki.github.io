@@ -273,6 +273,10 @@ section {
   height: auto;
 }
 
+.sns .icon:hover {
+  rotate: 12deg;
+}
+
 /* header-btn */
 .btn-loading {
   display: inline-block;
@@ -1272,8 +1276,12 @@ h2 {
   right: 0;
 }
 
+.sns-icon:hover {
+  rotate: 12deg;
+}
+
 .x-icon {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .work_container {
@@ -1334,6 +1342,14 @@ h3 {
 }
 
 @media screen and (max-width:767px) {
+  .x-icon {
+    padding-bottom: 32px;
+  }
+
+  .work_sns .sns-icon img {
+    width: 40px;
+  }
+
   .work-pc {
     display: none;
   }
