@@ -1318,13 +1318,15 @@ h3 {
   padding-top: 24px;
 }
 
-.work_text a {
-  font-size: 14px;
+.work_text .home {
+  width: 32px;
   padding-block: 24px;
+  transition: all .5s;
 }
 
-.work_text a:hover {
-  color: #da3832;
+.work_text .home:hover {
+  opacity: .8;
+  transition: all .5s;
 }
 
 .work_common-navi_copyright {
@@ -1361,5 +1363,9 @@ h3 {
   .work_text p {
     font-size: 18px;
     padding-top: 24px;
+  }
+
+  .work_text .home {
+    width: 24px;
   }
 }
